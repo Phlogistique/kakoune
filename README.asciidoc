@@ -249,6 +249,10 @@ can as well add any new scripts not provided with Kakoune.
 Basic Interaction
 -----------------
 
+Documentation
+~~~~~~~~~~~~~
+
+
 Selections
 ~~~~~~~~~~
 
@@ -623,6 +627,7 @@ Some commands take an exclamation mark (`!`), which can be used to force
 the execution of the command (i.e. to quit a modified buffer, the
 command `q!` has to be used).
 
+ * `doc [<topic>]`: show documentation for the specified topic
  * `cd [<directory>]`: change the current directory to `<directory>`, or the home directory is unspecified
  * `e[dit][!] <filename> [<line> [<column>]]`: open buffer on file, go to given
      line and column. If file is already opened, just switch to this file.
