@@ -279,7 +279,7 @@ cursor. Some additional keys are recognised in insert mode:
  * `<left>, <right>, <up>, <down>`: move the cursors in given direction
  * `<home>`: move cursors to line begin
  * `<end>`: move cursors to end of line
-
+make
  * `<c-n>`: select next completion candidate
  * `<c-p>`: select previous completion candidate
  * `<c-x>`: explicit insert completion query, followed by:
@@ -623,6 +623,7 @@ Some commands take an exclamation mark (`!`), which can be used to force
 the execution of the command (i.e. to quit a modified buffer, the
 command `q!` has to be used).
 
+ * `doc <topic>`: display documentation about a topic. The completion list displays the available topics.
  * `cd [<directory>]`: change the current directory to `<directory>`, or the home directory is unspecified
  * `e[dit][!] <filename> [<line> [<column>]]`: open buffer on file, go to given
      line and column. If file is already opened, just switch to this file.
